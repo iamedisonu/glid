@@ -1,0 +1,33 @@
+
+
+
+*{
+    background-color: green;
+}.container{
+    display:grid;
+    background-color: rgb(255, 149, 0);
+grid-template-columns: auto auto auto auto;
+grid-template-columns: auto auto;
+gap:10px;
+padding: 10px;
+box-sizing: border-box;
+
+
+
+}
+.item1{
+    grid-column: 1/span 2;
+ 
+   
+}
+.item2{
+    grid-column: 3;
+}
+.item3{
+    grid-column:4 ;
+    grid-row: span 2;
+}
+
+.item5{
+    grid-column: span 2;
+}
